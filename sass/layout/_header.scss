@@ -1,0 +1,59 @@
+/**
+*-------------------------------------------------------------------------------------------------------------------
+* Header Styles
+*-------------------------------------------------------------------------------------------------------------------
+*/
+
+.topbar {
+	
+	border-bottom: 1px solid $white
+}
+
+.topbar-main {
+	width: 83.3333%;
+}
+
+.site-branding {
+	border-bottom: 1px solid $cynosure-main-grey-border;
+	position: relative;
+	height: $sm-logo-height;
+
+	@include desktop {
+		height: $lg-logo-height;
+	}
+
+}
+
+.cyno-logo {
+	position: absolute;
+	left: $padding-left;
+	@include phone-landscape {
+		left: $padding-left-small;
+	}
+
+	@include desktop {
+		left: $padding-left-desktop;
+	}
+	height: inherit;
+	z-index: 2;
+
+	img {
+		height: inherit;
+	}
+}
+
+.secondary-logo {
+	position: absolute;
+	right: $padding-right-desktop;
+	height: inherit;
+	width: inherit;
+	z-index: 1;
+
+	img {
+		height: inherit;
+		width: inherit;
+	}
+}
+
+
+

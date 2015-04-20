@@ -1,0 +1,132 @@
+/**
+*-------------------------------------------------------------------------------------------------------------------
+* Theme Styles
+*-------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Header */
+
+.desktop-menu {
+	
+	background: $cynosure-silver;
+}
+
+body {
+	
+}
+
+a {
+	color: $cynosure-orange;
+
+	&:hover {
+		color: $cynosure-silver;
+	}
+
+	&:visited {
+		color: $cynosure-orange;
+	}
+	
+}
+
+/* Header Styles */
+
+.site-branding {
+	background: $cynosure-orange;
+}
+
+.topbar {
+	background: $cynosure-grey;
+}
+
+.cyno-logo {
+	
+}
+
+/* Nav Styles */
+
+.site-navigation {
+	background: $cynosure-silver;
+}
+
+
+/* Module Styles */
+
+.single-item {
+	border: 2px solid $cynosure-main-grey-border;
+}
+
+.single-wrapper {
+	
+	background-color: #fff;
+
+}
+
+.media-image {
+	
+	background-color: #fff;
+}
+
+.dropdown-menu {
+	
+	top: 81%;
+
+	li {
+
+		.files-dropdown-item {
+			
+			color: $cynosure-orange;
+		}
+	}
+
+}
+
+.file-select {
+	
+	border: 1px solid #000;
+}
+
+.primary-menu-item-link {
+	
+
+}
+
+.primary-menu-item {
+
+	border-bottom: 1px solid #ebebeb;
+}
+
+.sidebar-header {
+	margin-left: 20px;
+}
+
+.primary-menu-item-link {
+	background: url(../images/icon-bullet-arrow.png) no-repeat 0 50%;
+	border: none !important;
+	padding-left: 25px;
+	line-height: 32px;
+	border-bottom: 1px solid #ebebeb;
+	display: block;
+
+}
+
+/* Footer */
+
+.site-footer {
+	background: $cynosure-grey-footer;
+}
+
+.footer-top {
+	background: $cynosure-silver;
+}
+
+.footer-middle {
+	
+	background: $cynosure-grey-footer;
+
+}
+
+.footer-bottom {
+	background: $cynosure-grey;
+}
+
+

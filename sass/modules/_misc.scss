@@ -1,0 +1,143 @@
+/**
+*-------------------------------------------------------------------------------------------------------------------
+* Misc Styles
+*-------------------------------------------------------------------------------------------------------------------
+*/
+
+
+.single-item {
+	
+	padding-left: 0;
+	padding-bottom: 10px;
+	
+	height: 380px;
+	width: 100%;
+	max-width: 250px;
+	background-color: $cynosure-silver;
+
+
+	@include desktop {
+		margin: 0;
+	}
+
+}
+
+
+.single-wrapper {
+	padding-bottom: 1em;
+	
+	padding-top: 0;
+	border: 3px;
+}
+
+.product-row {
+	
+	margin-top: 20px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+.btn-group {
+	width: 100%;
+}
+
+.btn-group {
+	
+	.file-select {
+
+		width: 100%
+
+	}
+
+}
+
+.material-file-select {
+	
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+}
+
+.preview-download {
+	width: 100%;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: .8em;
+}
+
+.media-image {
+	
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	height: 230px;
+	position: relative;
+
+	img {
+
+		position: absolute;
+		margin: auto;
+		top: 0; left: 0; bottom: 0; right: 0;
+		max-width: 150px;
+		max-height: 175px;
+	}
+	
+
+}
+
+
+.material-caption {
+	
+	p {
+
+		
+		margin-bottom: 1em;
+		font-size: .9em;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+}
+
+
+.material-caption.text-center {
+	@include tablet {
+		text-align: left;
+	}
+
+	@include desktop {
+		text-align: center;
+	}
+}
+
+/* Sidebar */
+
+.sidebar {
+	padding: 0;
+}
+
+.sidebar-header {
+	
+	display: none;
+	visibility: hidden;
+
+	@include lg-desktop {
+		display: block;
+  		visibility: visible;
+  		margin: 0;
+	}
+
+}
+
+@include lg-desktop {
+	.css-select-moz {
+		display: none;
+		visibility: hidden;
+	}
+}
+

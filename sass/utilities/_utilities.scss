@@ -1,0 +1,55 @@
+/**
+*-------------------------------------------------------------------------------------------------------------------
+* Utilities
+*-------------------------------------------------------------------------------------------------------------------
+*/
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.align-left {
+	@include float-left;
+}
+
+.align-right {
+	@include float-right;
+}
+
+.align-none {
+	@include reset-float;
+}
+
+.clearfix {
+	@include clearfix;
+}
+
+
+.cynosure-orange-bg {
+	background: $cynosure-orange;
+}
+
+.left-padding {
+
+	padding-left: $padding-left;
+	@include phone-landscape {
+		padding-left: $padding-left-small;
+		padding-right: $padding-right-small;
+	}
+	@include desktop {
+		padding-left: $padding-left-desktop;
+		padding-right: $padding-right-desktop;
+	}
+}
+
+.right-padding {
+	padding-right: $padding-right;
+}

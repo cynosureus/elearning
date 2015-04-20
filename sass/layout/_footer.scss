@@ -1,0 +1,74 @@
+/**
+*-------------------------------------------------------------------------------------------------------------------
+* Footer Styles
+*-------------------------------------------------------------------------------------------------------------------
+*/
+
+.footer-top {
+	height: 10px;
+	
+}
+
+.footer-bottom {
+
+	padding-top: 18px;
+	padding-bottom: 12px;
+	border-top: 1px solid $cynosure-footer-grey-border;
+
+}
+
+.footer-middle {
+
+	.footer-address {
+
+		text-shadow: 0 1px 1px rgba(0,0,0, .7);
+		font-style: normal;
+		color: #8C8989;
+
+		p {
+			margin: 0;
+		}
+
+	}
+
+
+	
+}
+
+.legal {
+	
+	display: inline-block;
+	margin-bottom: 0;
+	margin-left: 0;
+	font-size: 12px;
+
+	li:first-child {
+		background: none;
+	}
+
+	li {
+	
+		float: left;
+
+		padding-left: 10px;
+		padding-right: 10px;
+		background: url(../images/divider-02.gif) no-repeat 0 50%;
+	}
+
+}
+
+.copyright {
+	display: inline-block;
+
+}
+
+.footer-logo {
+	img {
+
+		height: $sm-logo-height;
+
+		@include desktop {
+			height: $lg-logo-height;
+		}
+	}
+}
